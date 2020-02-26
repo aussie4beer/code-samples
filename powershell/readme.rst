@@ -4,7 +4,7 @@ Nutanix Developer Portal Code Samples - PowerShell
 To use the PowerShell code samples, the following environment is recommended.
 
 - Windows PowerShell 5.1 or later
-- A suitable PowerShell editor, e.g. Microsoft Visual Studio Code_ or Visual Studio Community_.  Instructions for extending Visual Studio Code with PowerShell support are provided below.
+- A suitable PowerShell editor, e.g. `Microsoft Visual Studio Code <https://code.visualstudio.com/>`_ or `Microsoft Visual Studio Community <https://visualstudio.microsoft.com/vs/community/>`_.  Instructions for extending Visual Studio Code with PowerShell support are provided below.
 - An alternative editor, built into some versions of Windows, is **PowerShell ISE**
 - Access to a Nutanix Cluster for API testing purposes.
 - Nutanix Community Edition is supported but may not always provide the exact same APIs as a "full" Nutanix cluster.
@@ -33,6 +33,3 @@ The examples and screenshots below are from the **create_vm_v3_basic.ps1** sampl
 #. After entering credentials, and if the request was successful, the JSON response will show a status as shown below.
 
    .. figure:: script_output.png
-
-.. _Community: https://visualstudio.microsoft.com/vs/community/
-.. _Code: https://code.visualstudio.com/

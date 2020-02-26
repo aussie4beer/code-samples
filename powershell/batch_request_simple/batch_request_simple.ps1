@@ -19,7 +19,7 @@ class RequestParameters {
 $parameters = [RequestParameters]::new()
 
 # set the basic properties for the request
-$parameters.cluster_ip = "10.133.16.228"
+$parameters.cluster_ip = "10.0.0.1"
 $parameters.uri = "https://" + $parameters.cluster_ip + ":9440/api/nutanix/v3/batch"
 
 # the payload for this sample script creates a basic VM named as per the $parameters.vm_name variable
