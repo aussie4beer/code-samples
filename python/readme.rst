@@ -4,14 +4,14 @@ Nutanix Developer Portal Code Samples - Python
 To use the Python code samples, the following environment is recommended.
 
 - Python >=3.7 (3.7 or later)
-- Python **requests** (official documentation for requests_) and **urllib3** (official install for urllib3_) libraries.  This will need to be done **before** running the Python scripts.
+- Python **requests** (official documentation for `requests <https://2.python-requests.org/en/master/user/install/>`_) and **urllib3** (official install for `urllib3 <https://pypi.org/project/urllib3/>`_) libraries.  This will need to be done **before** running the Python scripts.
 - The accompanying JSON files from this repository (instructions and usage provided below).
-- A suitable Python editor, e.g. Microsoft Visual Studio Code_ for GUI editing.
+- A suitable Python editor, e.g. `Microsoft Visual Studio Code <https://code.visualstudio.com/>`_ for GUI editing.
 - Access to a Nutanix Cluster for testing Prism Element code samples (API v2.0)
 - Access to a Nutanix Prism Central instance for testing Prism Central code samples (API v3)
 - Nutanix Community Edition can be used but may not always provide the exact same APIs as a "full" Nutanix cluster or "full" Nutanix Prism Central instance
 
-.. note:: Please note that instructions provided in this repository will assume the use of Visual Studio Code for GUI editing purposes.  Otherwise ubiquitous editors such as **vi** can be used.
+.. note:: Please note that instructions provided in this repository will assume the use of `Visual Studio Code <https://code.visualstudio.com/>`_ for GUI editing purposes.  Otherwise ubiquitous editors such as **vi** can be used.
 
 Python Script Usage
 ...................
@@ -44,8 +44,3 @@ Note: These steps also assume you are copying/pasting code directly from the rep
    .. figure:: create_vm_v3_basic/screenshot.png
 
 #. Check the output to make sure the request has a state of **PENDING**.
-
-.. _Community: https://visualstudio.microsoft.com/vs/community/
-.. _Code: https://code.visualstudio.com/
-.. _requests: https://2.python-requests.org/en/master/user/install/
-.. _urllib3: https://pypi.org/project/urllib3/
