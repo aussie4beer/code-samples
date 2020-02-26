@@ -3,10 +3,12 @@ Nutanix Developer Portal Code Samples - C#
 
 To use the C# code samples, the following environment is recommended.
 
-- Visual Studio Community_ (free & recommended) or full Visual Studio (commercial software)
-- Access to a Nutanix Cluster for API testing purposes.
+- `Visual Studio Community <https://visualstudio.microsoft.com/vs/community/>`_ (free & recommended)
+- Visual Studio "full" edition (commercial software)
+- Access to a Nutanix Cluster for testing API v2.0 requests
+- Access to Prism Central for API v3 requests
 - Nutanix Community Edition is supported but may not always provide the exact same APIs as a "full" Nutanix cluster.
-- The Newtonsoft.Json extension for .NET.  To install Newtonsoft.Json, please see the official documentation_.  **This will need to be done before continuing below**.
+- The Newtonsoft.Json extension for .NET.  To install Newtonsoft.Json, please see the official `documentation <https://www.nuget.org/packages/Newtonsoft.Json/>`_.  **This will need to be done before continuing below**.
 
 .. note:: Please note that instructions provided in this repository will assume the use of Visual Studio Community software.
 
@@ -15,7 +17,7 @@ Console Applications
 
 The provided C# console applications are designed to demonstrate use of the Nutanix Prism REST APIs from C#.  To use the samples in your environment, please follow the instructions below.
 
-The examples and screenshots below are from the **list_vm_v3.cs** sample.
+The examples and screenshots below are from the **list_vm_vs/list_vm_v3.cs** sample.
 
 #. Open Visual Studio Community_
 #. Select **Create a new project**
@@ -63,5 +65,3 @@ The examples and screenshots below are from the **list_vm_v3.cs** sample.
    .. figure:: app_running.png
    .. figure:: app_running_large.png
 
-.. _Community: https://visualstudio.microsoft.com/vs/community/
-.. _Documentation: https://www.nuget.org/packages/Newtonsoft.Json/
