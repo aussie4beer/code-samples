@@ -89,11 +89,11 @@ try:
         if(response.ok):
             print(response.text)
         else:
-            print(f'An error occurred while connecting to {args.ip}.')
+            print(f'An error occurred while connecting to {json_data["cluster_ip"]}.')
             # the following line can be uncommented to show detailed error information
             # print(response.text)
     except Exception as ex:
-        print(f'An {type(ex).__name__} exception occurred while connecting to {args.ip}.\nArgument: {ex.args}.')
+        print(f'An {type(ex).__name__} exception occurred while connecting to {json_data["cluster_ip"]}.\nArgument: {ex.args}.')
 
 except KeyError:
     print(f'{args.json} file does not appear to contain the required fields.  Please check the file and try again.')
