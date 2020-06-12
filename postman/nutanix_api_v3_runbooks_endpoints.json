@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "2f6e1fe5-7b53-4966-92a3-75b0cd230a6b",
-		"name": "Downloadable Nutanix API Examples",
+		"name": "Nutanix v3 API - runbooks & endpoints",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
